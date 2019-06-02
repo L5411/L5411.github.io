@@ -3,9 +3,10 @@
 # ===========================================
 
 # Site creation time
-since: 2015
+since: 2019
 
-languages: zh-cn
+# zh-cn | en
+languages: en
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
@@ -13,15 +14,15 @@ favicon: /favicon.ico
 # Set feed link (false | default | your feed link)
 # false: disable
 # default: use `atom.xml`, generator for `hexo-generator-feed`
-rss: default
+rss: false
 
 # ===========================================
 # Menu Settings
 # ===========================================
 menu:
   Home: /
-  # Archives: /archives/
-  # Tags: /tags/
+  Archives: /archives/
+  Tags: /tags/
   # Categories: /categories/
   # About: /about/
 
@@ -32,7 +33,7 @@ menu:
 color: default
 
 # default page mode: default | archives
-mode: archives
+mode: default
 
 toc: true
 
@@ -45,7 +46,7 @@ pjax: true
 latex: false
 
 copyright:
-  enable: true
+  enable: false
   # https://creativecommons.org/
   license: '<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>'
 
@@ -59,13 +60,13 @@ reward:
 # Social links Settings
 # ===========================================
 social:
-  email: your@email.com
+  email: fk.w.l5411@gmail.com
   stack-overflow:
   twitter:
   facebook:
   linkedin:
   google:
-  github: https://github.com/ahonn
+  github: https://github.com/L5411
   weibo:
   zhihu:
   douban:
